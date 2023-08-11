@@ -57,7 +57,6 @@ Outputs generated:
 - VCF file containing whole-genome variants (and one annotated by SNPEff) 
 - SNPGenie folder containing data for each  sample
 
-  ### WholeGenomeEpitopeAnalysis.R
-
-  This R script is used to  organize the CSV/TXT files
+### WholeGenomeEpitopeAnalysis.R
+This R script is used to  organize the CSV/TXT files
  
