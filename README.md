@@ -1,7 +1,7 @@
 # Characterizing SIV populations in SIVmac239M-infected MCM that exhibited post-treatment control
 Scripts used for analyzing SIVmac239M barcode sequences, the proportion of rechallenge virus present, and identifying SNPs and CTL epitope variants in MCM. 
 
-This data is generated using a series of R scripts to demultiplex FASTQ files and identify SIVmac239M barcodes present in the plasma longitudinally and in lymph nodes at necropsy. 
+This data is generated using a series of R scripts to demultiplex FASTQ files and identify SIVmac239M barcodes present in the plasma longitudinally. 
 
 ## Scripts used 
 The first two scripts used to demultiplex data and identify barcodes are provided to us courtesy of the Keele Lab (NCI Frederick). We change one script to reflect where our data is, and this one script calls the other. This results in a multi-page excel file. 
