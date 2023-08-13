@@ -21,41 +21,32 @@ Outputs generated:
 
 Additional outputs that are not written to a file can be found when running the script. 
 
-### 2. WholeGenomeVariantAnalysis.ipynb 
-This Jupyter notebook is designed to take whole-genome sequence data from paired-end FASTQ files, merge reads, map to a reference,  and identify epitope variants and SNPs. 
+### 2. PTC_Epitope_ID.ipynb 
+This Jupyter notebook is designed to take whole-genome sequence data from paired-end FASTQ files, merge reads, map to a reference,  and identify epitope sequences. 
 
 Python packages required: 
-- samtools (version 1.9)
+- samtools
 - os
 - pathlib
 - tempfile
 - shutil
 - subprocess
-- quasitools
 - pandas
 - glob
-- pyfastx
 - re
 - collections
 - Bio.Seq
-- matplotlib (pyplot)
 
 Additional programs required: 
-- SNPGenie and its dependencies
-- SNPEff and its dependencies 
 - BBtools
-- Short amplicon normalization scripts (See ref) 
   
 Inputs required:
-- GTF and .fasta file for your reference
+- FASTA file for your reference
 - CSV file of epitope sequences
-- List of illumina indices 
 
 Outputs generated: 
-- TXT and CSV files for each animal containing epitope sequences
-- Whole genome merged .fastq.gz files and .bam files, and consensus sequences for gag, env, and pol
-- VCF file containing whole-genome variants (and one annotated by SNPEff) 
-- SNPGenie folder containing data for each  sample
+- TXT and CSV files for each animal containing epitope sequences, including merged CSV files for each animal and files with the WT epitope sequence identified and variants < 1% filtered out 
+- Whole genome merged .fastq.gz files and .sam files
 
 ### 3. WholeGenomeEpitopeAnalysis.R
 This R script is used to  organize the CSV/TXT files
