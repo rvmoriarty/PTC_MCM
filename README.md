@@ -41,6 +41,6 @@ Outputs generated:
 - TXT and CSV files for each animal containing epitope sequences, including merged CSV files for each animal and files with the WT epitope sequence identified and variants < 1% filtered out 
 - Whole genome merged .fastq.gz files and .sam files
 
-### 3. WholeGenomeEpitopeAnalysis.R
+### 3. PTC_EpitopeOrg.R
 This R script is used to  organize the CSV/TXT files
  
