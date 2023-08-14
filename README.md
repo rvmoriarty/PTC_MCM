@@ -26,15 +26,8 @@ This Jupyter notebook is designed to take whole-genome sequence data from paired
 
 Python packages required: 
 - samtools
-- os
-- pathlib
-- tempfile
-- shutil
-- subprocess
-- pandas
 - glob
 - re
-- collections
 - Bio.Seq
 
 Additional programs required: 
