@@ -22,7 +22,7 @@ Outputs generated:
 Additional outputs that are not written to a file can be found when running the script. 
 
 ### 2. PTC_Epitope_ID.ipynb 
-This Jupyter notebook is designed to take whole-genome sequence data from paired-end FASTQ files, merge reads, map to a reference,  and identify epitope sequences. 
+This Jupyter notebook is designed to take whole-genome sequence data from paired-end FASTQ files, merge reads, map to a reference,  and identify epitope sequences. I used a conda environment prior to running this notebook running python version 3.7.
 
 Python packages required: 
 - samtools
